@@ -1,4 +1,4 @@
-#importing a library
+#importing a module
 from math import *
 
 print(2)

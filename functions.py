@@ -1,29 +1,18 @@
-phrase = "Random Phrase"
+def say_hi():
+  print("hello user")
 
-#simply printing
-print(phrase)
+print("top")
+say_hi()
+print("bottom")
 
-#changing into lowercase
-print(phrase.lower())
+def sayhi(name, age):
+  print("Hello " + name)
+  print("You are ", age, "years old")
 
-#changing into uppercase
-print(phrase.upper())
+str a
+int b
 
-#check if string is upper or not
-print(phrase.isupper())
+a=input("Enter your name.")
+b=input("Enter your age.")
 
-#continuous functions
-print(phrase.upper().isupper())
-
-#accessing the elements of a string
-print(phrase[0])
-
-#knowing the length of the string
-print(len(phrase))
-
-#knowing the index of a character
-print(phrase.index("P"))
-print(phrase.index("Rand"))
-
-#replacing characters in a string
-print(phrase.replace("Random","Specific"))
+sayhi(a, b)
