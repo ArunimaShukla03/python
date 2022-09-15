@@ -5,14 +5,12 @@ print("top")
 say_hi()
 print("bottom")
 
-def sayhi(name, age):
-  print("Hello " + name)
-  print("You are ", age, "years old")
+a=input("enter your name:")
+b=input("enter your age:")
 
-str a
-int b
+def sayhi():
+    print("your name is " + a)
+    print("your age is " + b)
 
-a=input("Enter your name.")
-b=input("Enter your age.")
 
-sayhi(a, b)
+sayhi()
