@@ -32,3 +32,19 @@ elif not(is_gay) and is_happy:
   print("You are homophobic.")
 else:
   print("I am sorry")
+
+# to return the largest of three numbers
+
+def max_num(num1, num2, num3):
+  if num1>=num2 and num1>=num3:
+    return num1
+  elif num2>=num1 and num2>=num3:
+    return num2
+  else:
+    return num3
+  
+a=input("enter the first number: ")
+b=input("enter the second number: ")
+c=input("enter the third number: ")
+
+print(max_num(a, b, c))
