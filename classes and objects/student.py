@@ -2,6 +2,8 @@
 
 #classes basically define what the datatype is while the object is actually the datatype
 
+#commit
+
 class Student:
 
   def _init_(self, name, major, gpa, is_on_probation):

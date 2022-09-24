@@ -12,5 +12,4 @@ def sayhi():
     print("your name is " + a)
     print("your age is " + b)
 
-
 sayhi()

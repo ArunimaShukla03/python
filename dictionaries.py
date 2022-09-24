@@ -1,5 +1,7 @@
 #dictionaries consist of key-value pairs and every key should be unique
 
+#key can be any number or string
+
 from calendar import month
 
 

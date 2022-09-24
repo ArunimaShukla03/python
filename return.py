@@ -3,6 +3,7 @@
 # no code is executed in a block after the return statement
 
 def cube(num):
-  print(num*num*num)
+  return num*num*num
 
 result = cube(4)
+print(result)

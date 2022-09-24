@@ -33,7 +33,7 @@ elif not(is_gay) and is_happy:
 else:
   print("I am sorry")
 
-# to return the largest of three numbers
+# to return the largest of three numbers, we also use comparison operators such as !=, ==, <=, =>, <, >
 
 def max_num(num1, num2, num3):
   if num1>=num2 and num1>=num3:
