@@ -2,7 +2,7 @@
 
 #classes basically define what the datatype is while the object is actually the datatype
 
-#commit
+#commit 2
 
 class Student:
 
