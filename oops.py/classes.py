@@ -17,3 +17,8 @@ person1.favourite_color = "none"
 
 print(person1.age)
 print(person1.name)
+
+# Creating a "method" that will be common to all the objects
+
+class Man():
+  def print_name()
