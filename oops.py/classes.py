@@ -18,7 +18,15 @@ person1.favourite_color = "none"
 print(person1.age)
 print(person1.name)
 
-# Creating a "method" that will be common to all the objects
+# Creating a "method" that will be common to all the objects.
+
+# Instance is an object that belongs to a class. For example, "list" is a class and if we create a list, we have an instance of "list" class.
+
+# "Self" refers to the current instance of the class and is used to access variables that belongs to the class.
 
 class Man():
-  def print_name()
+  def print_name(self):
+    print("Arunima Shukla")
+  
+person = Man()
+person.print_name()
