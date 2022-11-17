@@ -30,3 +30,13 @@ class Man():
   
 person = Man()
 person.print_name()
+
+class People():
+  def print_name(self, name):
+    print(name)
+    
+people1 = People()
+people1.print_name(name="arunima")
+
+people2 = People()
+people2.print_name(name="kuhu")
