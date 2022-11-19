@@ -32,3 +32,5 @@ print(item1.after_discount)
 item2.after_discount = 0.7
 
 print(item2.after_discount)
+
+# While class attribute is shared by all instance, an instance attribute is unique to that instance.
