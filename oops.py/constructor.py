@@ -19,7 +19,11 @@ class Book():
     self.name = name
     self.PageCount = PageCount
     
-read = Book(name = "five feet apart", PageCount="350")
+  def read(self):
+    print(f"I finished the book, it had {self.PageCount} pages.")
+    
+book1 = Book(name="five feet apart", PageCount=200)
+book1.read()
 
-print("I finished the book, it had", read.PageCount , "pages.")
-
+book2 = Book("the bell jar", 600)
+book2.read()
