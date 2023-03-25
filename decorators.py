@@ -4,6 +4,41 @@ def decorator_func(original_func):
 
     def wrapper_func():
         return original_func()
+    
+    # This wrapper function is waiting to be executed.
 
     return wrapper_func
 
+def display():
+    print("display function ran")
+
+decorated_display = decorator_func(display)
+
+decorated_display()
+
+# Decorators allows us to easily add functionality to our existing functions by adding that functionality inside the wrapper function.
+
+def decorator_func(original_func):
+
+    def wrapper_func():
+
+        print("wrapper excuted this before {}".format(original_func.__name__))
+
+        return original_func()
+
+    return wrapper_func
+
+def display():
+    print("display function ran")
+
+decorated_display2 = decorator_func(display)
+
+decorated_display2()
+
+# Instead of assigning these again and again to different variables and executing them, we can simply write "@decorator_func" above the display function to do the exact same thing.
+
+@decorator_func
+def printout():
+    print("decoratorsss")
+
+printout()
