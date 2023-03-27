@@ -63,3 +63,5 @@ def display_info(name, age):
 display_info("John", 30)
 
 display()
+
+# This display function is being executed.
